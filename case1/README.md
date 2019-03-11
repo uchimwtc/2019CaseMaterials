@@ -1,5 +1,12 @@
 # Case 1 Documentation
 
+## Education Materials
+
+In order to get acquainted with interest rates and interest rate derivatives we recommend reading Chapters 4, 6, and 7 in Options, Futures, and Other Derivatives by Hull, eighth edition.
+We also recommend reading the following blog post: 
+https://www.clarusft.com/mechanics-and-definitions-of-spread-and-butterfly-swap-packages/
+Both the blog post and Hull readings include information about a very related instrument to interest rate futures: interest rate swaps.  We do not recommend ignoring the swap related readings.  The difference between a vanilla interest rate swap and an interest rate future is that a swap is payed for at the time of expiry while futures are paid for up front.  You can assume for this case that the cost of financing a cash position is negligible (i.e. market participants can borrow/lend money at ~0% rate; remember that this is only true in a theoretical sense; your positions will be liquidated and so you cannot carry a position that would require financing).  Thus, the futures can be treated like swaps in this market.  Nonetheless, we do not recommend directly using any strategies in the readings, but rather we encourage you to think about how they could be adapted to this market given the data you will be provided.  
+
 ## Price Setter Documentation
 
 In the Case 1 release (see [here](https://drive.google.com/open?id=1_DhkZVWRar_6GntGGYfyRt_zdi7C7oA2)) we have provided you with a trading bot that sets prices on a locally-running deployment of an χChange exchange server to match theoretical prices in a hidden set of training data. This bot is provided in a case_one_bot.tar file that, when unzipped (tar -xvf case_one_bot.tar) provides two files: case_one_bot.par and price_setter_config.json. The former is a compiled binary of the aforementioned trading bot and can be run
