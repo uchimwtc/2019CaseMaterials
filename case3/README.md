@@ -11,3 +11,6 @@
 2. You may assume that the market obeys Barra factor models (not Fama-French). There is a good reason Fama-French is rarely used for factor investing, and we will go through the details during the case presentation on the day of the competition.
 3. The training data covers 756 days over a 3-year period with a basket of 680 assets. The features for each stock are updated every 21 days. Due to the particular design of the dimensions, you should be mindful when you are either directly or implictly inverting a matrix. Check out its condition number for stability.
 4. All the features are style-based. There are no macroeconomic factors.
+
+#### Code Submission
+1. To be updated after some sleep.
