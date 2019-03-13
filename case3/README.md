@@ -16,4 +16,5 @@
 1. Coming Soon.
 
 #### Update
-3/13/2019: We uploaded a new version of the training data that makes the periodicity of the features more pronounced. Please use the new data.
+- 3/13/2019: We uploaded a new version of the training data that makes the periodicity of the features more pronounced. Please use the new data.
+- 3/13/2019: We have taken down the PDF guide for modification. It will be updated soon.
