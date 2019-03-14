@@ -13,7 +13,7 @@
 4. All the features are style-based. There are no macroeconomic factors.
 
 #### Code Submission and Dependency Management
-1. Coming Soon.
+1. see [here](https://github.com/uchimwtc/MWTC19Submit)
 
 #### Update
 - 3/13/2019: We uploaded a new version of the training data that makes the periodicity of the features more pronounced. Please use the new data.
